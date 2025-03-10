@@ -14,7 +14,7 @@ def tabel_kebenaran():
     print("\n") 
     print("TABEL KEBENARAN PROPOSISI BERSYARAT")
     print("-"* 180)
-    print("| p\t alt p-> q\t q> p (Konvers) (t-p-> -q (Invers)\t-q-p (Kontraposisi)|")
+    print("| p\t| q\t| p → q\t| q → p (Konvers)\t| ¬p → ¬q (Invers)\t| ¬q → ¬p (Kontraposisi) |")
     print("-"* 180)
 
     for p in [True, False]:
